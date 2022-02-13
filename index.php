@@ -60,7 +60,7 @@
                 </div>
             </form>
             <?php
-            include("controllers/personaController.php");
+            include("controllers/person.php");
             ?>
             
 
