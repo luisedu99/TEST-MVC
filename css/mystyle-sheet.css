@@ -1,0 +1,409 @@
+nav{
+    height: 70px;
+    background: black;
+    /* rgba(104,122,240,.60);
+    background: -moz-linear-gradient(top, rgba(104,122,240,1) 0%, rgba(82,70,250,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104,122,240,1)), color-stop(100%, rgba(82,70,250,1)));
+    background: -webkit-linear-gradient(top, rgba(104,122,240,1) 0%, rgba(82,70,250,1) 100%);
+    background: -o-linear-gradient(top, rgba(104,122,240,1) 0%, rgba(82,70,250,1) 100%);
+    background: -ms-linear-gradient(top, rgba(104,122,240,1) 0%, rgba(82,70,250,1) 100%);
+    background: linear-gradient(to bottom, rgba(104,122,240,1) 0%, rgba(82,70,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#687af0', endColorstr='#5246fa', GradientType=0 );*/
+}
+
+nav ul li a {
+    height: 70px;
+}
+
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+img.logo {
+    width: 85px;
+
+}
+
+.center-txt{
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+}
+
+.center-sesion{
+    margin-top: 70px;
+
+}
+
+.center-sesion2{
+    margin-top: 200px;
+
+}
+
+p#historia{
+    margin-bottom: 35px;
+}
+
+hr.v{
+width: 1px;
+height: 500px;
+}
+
+.btn#btn-registro {
+    margin: 5px;
+}
+
+.col#margen-interno{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+/*Color del footer*/
+
+footer.page-footer {
+    background-color: #263238;
+}
+
+footer.page-footer .footer-copyright {
+    background-color: #212B30;
+}
+
+.card.small#inicio {
+    height: 350px;
+}
+
+/* *****************************************************************
+ * 1. General
+ * ************************************************************** */
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    overflow-x: hidden;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    background-color: #F7F7F7;
+}
+
+p {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /*color: #777;*/
+    color: black;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.sec-padded-1x {
+    padding: 90px 0;
+}
+
+.sec-padded-2x {
+    padding: 80px 0 0;
+}
+
+.sec-padded-3x {
+    padding: 50px 0;
+}
+
+.sec-padded-4x {
+    padding: 50px 0 0;
+}
+
+.btm-mrgn-0 {
+    margin-bottom: 0 !important;
+}
+
+.center-block {
+    margin: 0 auto !important;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.center-heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.center-heading h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.center-line {
+    width:100px;
+    height: 2px;
+    display: inline-block;
+    margin: 13px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*margin: 0px;*/
+    /*color: #444;*/
+    color: black;
+}
+
+.center-heading p {
+    font-size: 18px;
+    color: #777;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: cornflowerblue;
+}
+
+.container{
+    width: 80%;
+}
+
+/*Estilos para tamaño fijo de tarjetas para sucursales*/
+div.card#sucursal .card-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+div.card#sucursal {
+    height: 270px;
+}
+/*-----------------------------------------------------*/
+
+
+/* *****************************************************************
+ * 2. Portada
+ * ************************************************************** */
+
+
+.home-section {
+    height: 740px;
+    background: no-repeat center center;
+    background-image: url('../img/bg-intro3.jpg') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width: 100%;
+}
+.hero-text {
+    position: relative;
+    padding-top: 180px !important;
+    padding-bottom: 120px !important;
+}
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 10px;
+    color: white;
+}
+.hero-text h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+}
+
+
+/* *****************************************************************
+ * 3. Seccion de mapa
+ * ************************************************************** */
+
+#location .address-block {
+    padding: 3% 3% 2% 6.9%;
+    background-color: #ff8f00 ;
+}
+#location .address-block .center-heading {
+    margin-bottom: 25px;
+}
+
+#location .map-block,#location .address-block ul {
+    padding: 0;
+    margin-bottom: 0px;
+}
+#location .address-block ul li p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#location .address-block ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 45px;
+    position: relative;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+/* *****************************************************************
+ * 4. Horarios
+ * ************************************************************** */
+
+div.center-heading#titulo{
+    padding-top: 50px;
+}
+
+div.card#instructor .card-image {
+    height: 240px;
+    overflow: hidden;
+}
+
+div.card#instructor {
+    height: 360px;
+    margin-bottom: 60px;
+}
+
+div#form {
+    padding-left: 0px;
+}
+
+p#iconos{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+ul#direccion {
+    margin-top: 0px;
+}
+
+/* Galeria album */
+
+p#gallery-title{
+    font-weight: bold !important;
+    text-transform: uppercase;
+    color: black;
+}
+
+div.card#album {
+    height: 260px;
+}
+
+div.card#album .card-image {
+    height: 190px;
+    overflow: hidden;
+}
+
+span#fotos{
+    color: #fff;
+    position: absolute;
+    left: 78%;
+    bottom: 75%;
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    background-color: gold;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    border-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* Galeria fotos */
+
+img#fotos-galeria{
+    width: 100%;
+    padding: 5px;
+}
+
+.migrafico{ 
+    background-color: darkorange;
+    padding: 10px;
+    padding-left: 15px;
+    width: 40%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+
+/*----------Sucursal----------------*/
+
+span#titulo-sucursal {
+    background-color: lightsteelblue;
+    padding: 10px !important;
+    opacity: 0.8;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.noticias-title {
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.noticias-index {
+    text-transform: uppercase;
+}
+
+.dropstyle {
+    top: 64.4px !important; 
+}
+
+/*-----opciones usuario-------*/
+
+.user-options {
+    margin-top: 30px;
+}
+
+.nombre_user {
+    padding: 10px 10px 1px 10px;
+    text-transform: capitalize;
+}
+
+.form-perfil {
+    margin-left: 20px;
+}
+
+.form-perfil2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-madidas{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px
+}
